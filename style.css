@@ -1,0 +1,230 @@
+/* STYLE SECTIONING TAGS */
+/* Reset the space of the webpage */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #ff6b6b;
+}
+
+header{
+  /* Background Image*/
+  background-image: url(assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size:1450px;
+
+  /*Padding*/
+  padding-top: 6em;
+  padding-bottom: 7em;
+}
+
+main{
+  /*Margins*/
+  margin-left:2%;
+  margin-right:2%;
+  margin-bottom:2%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  /*Color*/
+  color:black;
+
+  /*Text*/
+  text-align:center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  /* Backup Option: font-family: Copperplate, Papyrus, fantasy;*/
+  font-size:60px;
+}
+
+h2{
+  /*Color*/
+  color:black;
+
+  /*Text*/
+  text-align: left;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+
+  /*Padding*/
+  padding-top:2em;
+  padding-bottom:1em;
+}
+
+h3{
+   /*Color*/
+  color:black;
+  
+  /*Text*/
+  text-align: left;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px;
+
+  /*Padding*/
+  padding-bottom:1em;
+  padding-top:1em;
+}
+
+.triggerWarning{
+  /*text*/
+  line-height: 2em;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+p{
+  /*Color*/
+  color:black;
+
+  /*Text*/
+  text-align: left;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  line-height:2em;
+
+  /*Padding*/
+  padding-bottom:2em;
+}
+
+ol{
+  /*Text*/
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  line-height:2em;
+
+  /*Margins*/
+  margin:3%;
+}
+
+/* STYLE IMAGES */
+img{
+  padding-top:2em;
+}
+
+.textbox{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+#textbox3{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+}
+
+#homePagePhoto{
+  padding-left:1em;
+  height: 22em;
+  width: 16em;
+}
+
+#pic2{
+  padding-left:1em;
+  height: 16em;
+  width: 22 em;
+}
+
+#pic3{
+  padding-right:1em;
+  height: 22em;
+  width: 16em;
+}
+
+/* STYLE NAV BAR */
+#navBar {
+  list-style-type:none;
+  background-color:#ff6b6b;
+  overflow:hidden;
+  padding:1em;
+}
+
+.navPages{
+  display:inline;
+}
+
+.navPages a{
+  text-decoration:none;
+  color:black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding:1em;
+}
+
+.navPages a:hover {
+  background-color:#ffa8a8;
+}
+
+/* STYLE BUTTONS */
+button{
+  /*color*/
+  background-color:#e69500;
+  color:black;
+  border-color:#e69500;
+  
+  /*look*/
+  margin-top:10px;
+  border-radius: 0px;
+  height: 30px;
+  width: 150px;
+
+  /*font*/
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size:14px;
+
+}
+
+.rightButtons{
+   margin-left:10px;
+}
+
+.biggerButtons{
+  height: 50px;
+}
+
+#scriptBtn{
+  background-color:#ff6b6b;
+  border-color:#ff6b6b;
+}
+
+#NAFH{
+  height:50px;
+}
+/* Contact your Legislators!*/
+.scriptQues{
+  background:#e69500;
+  border-radius: 0px;
+  border-style: none;
+
+  padding: 20px;
+
+  margin-left: 25%;
+  margin-right: 25%;
+
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-size:1em;
+  text-align:center;
+  line-height:2em;
+  color:black;
+  
+}
+
+/* CHANGE CSS BASED ON SCREEN SIZE*/
+ /*Breakpoint 1*/
+@media screen and (max-width: 850px){
+
+  .textbox{
+    flex-wrap: wrap;
+  }
+
+  #textbox3{
+    flex-wrap: wrap;
+  }
+
+  
+}
+  
